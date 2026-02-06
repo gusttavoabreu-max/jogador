@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mercado de Jogadores - Brasileirão 2026</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #f0f2f5;
+      margin: 0;
+      padding: 20px;
+      color: #333;
+    }
+    h1 {
+      text-align: center;
+      color: #006600; /* Verde futebol */
+      margin-bottom: 30px;
+    }
+    .market-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 25px;
+      max-width: 1400px;
+      margin: 0 auto;
+    }
+    .player-card {
+      background: white;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+      transition: transform 0.25s, box-shadow 0.25s;
+      text-align: center;
+      padding: 15px;
+    }
+    .player-card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    }
+    .player-img {
+      width: 160px;
+      height: 160px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 4px solid #006600;
+      margin: 10px auto;
+    }
+    .player-name {
+      font-size: 1.4em;
+      font-weight: bold;
+      margin: 10px 0 5px;
+    }
+    .player-team {
+      font-size: 1.1em;
+      color: #004d00;
+      margin: 4px 0;
+    }
+    .player-value {
+      font-size: 1.3em;
+      color: #c41e3a;
+      font-weight: bold;
+      margin: 12px 0;
+    }
+    .btn-contratar {
+      background: #006600;
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      font-size: 1.1em;
+      border-radius: 30px;
+      cursor: pointer;
+      transition: background 0.3s;
+      margin-top: 10px;
+    }
+    .btn-contratar:hover {
+      background: #004d00;
+    }
+    .btn-contratar:active {
+      transform: scale(0.97);
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Mercado de Jogadores - Brasileirão 2026</h1>
+  <p style="text-align:center; font-size:1.1em; margin-bottom:40px;">
+    Contrate os principais craques brasileiros do campeonato! (Valores aproximados de mercado - jan/2026)
+  </p>
+
+  <div class="market-container">
+
+    <!-- 1 -->
+    <div class="player-card">
+      <img src="https://img.a.transfermarkt.technology/portrait/medium/444523-1734950873.jpg?lm=1" alt="Lucas Paquetá" class="player-img">
+      <div class="player-name">Lucas Paquetá</div>
+      <div class="player-team">Flamengo • Meia Ofensivo</div>
+      <div class="player-value">€ 35 milhões</div>
+      <button class="btn-contratar" onclick="alert('Você contratou Lucas Paquetá! 💰')">Contratar</button>
+    </div>
+
+    <!-- 2 -->
+    <div class="player-card">
+      <img src="https://img.a.transfermarkt.technology/portrait/medium/943837-1727950531.jpg?lm=1" alt="Vitor Roque" class="player-img">
+      <div class="player-name">Vitor Roque</div>
+      <div class="player-team">Palmeiras • Centroavante</div>
+      <div class="player-value">€ 35 milhões</div>
+      <button class="btn-contratar" onclick="alert('Você contratou Vitor Roque! ⚽')">Contratar</button>
+    </div>
+
+    <!-- 3 -->
+    <div class="player-card">
+      <img src="https://img.a.transfermarkt.technology/portrait/medium/808509-1721310405.jpg?lm=1" alt="Danilo" class="player-img">
+      <div class="player-name">Danilo</div>
+      <div class="player-team">Botafogo • Volante</div>
+      <div class="player-value">€ 22 milhões</div>
+      <button class="btn-contratar" onclick="alert('Danilo contratado!')">Contratar</button>
+    </div>
+
+    <!-- 4 -->
+    <div class="player-card">
+      <img src="https://img.a.transfermarkt.technology/portrait/medium/489893-1721310405.jpg?lm=1" alt="Yuri Alberto" class="player-img">
+      <div class="player-name">Yuri Alberto</div>
+      <div class="player-team">Corinthians • Centroavante</div>
+      <div class="player-value">€ 22 milhões</div>
+      <button class="btn-contratar" onclick="alert('Yuri Alberto é seu!')">Contratar</button>
+    </div>
+
+    <!-- 5 -->
+    <div class="player-card">
+      <img src="https://img.a.transfermarkt.technology/portrait/medium/620477-1721310405.jpg?lm=1" alt="Kaio Jorge" class="player-img">
+      <div class="player-name">Kaio Jorge</div>
+      <div class="player-team">Cruzeiro • Centroavante</div>
+      <div class="player-value">€ 22 milhões</div>
+      <button class="btn-contratar" onclick="alert('Kaio Jorge contratado!')">Contratar</button>
+    </div>
+
+    <!-- 6 -->
+    <div class="player-card">
+      <img src="https://img.a.transfermarkt.technology/portrait/medium/694928-1727950531.jpg?lm=1" alt="Samuel Lino" class="player-img">
+      <div class="player-name">Samuel Lino</div>
+      <div class="player-team">Flamengo • Ponta Esquerda</div>
+      <div class="player-value">€ 20 milhões</div>
+      <button class="btn-contratar" onclick="alert('Samuel Lino no seu time!')">Contratar</button>
+    </div>
+
+    <!-- 7 -->
+    <div class="player-card">
+      <img src="https://img.a.transfermarkt.technology/portrait/medium/844797-1721310405.jpg?lm=1" alt="Flaco López" class="player-img">
+      <div class="player-name">José Manuel López</div>
+      <div class="player-team">Palmeiras • Centroavante</div>
+      <div class="player-value">€ 20 milhões</div>
+      <button class="btn-contratar" onclick="alert('Flaco López contratado!')">Contratar</button>
+    </div>
+
+    <!-- 8 -->
+    <div class="player-card">
+      <img src="https://img.a.transfermarkt.technology/portrait/medium/406560-1721310405.jpg?lm=1" alt="Pedro" class="player-img">
+      <div class="player-name">Pedro</div>
+      <div class="player-team">Flamengo • Centroavante</div>
+      <div class="player-value">€ 18 milhões</div>
+      <button class="btn-contratar" onclick="alert('Pedro é seu novo 9!')">Contratar</button>
+    </div>
+
+    <!-- Mais alguns para encher a página -->
+    <div class="player-card">
+      <img src="https://img.a.transfermarkt.technology/portrait/medium/371256-1721310405.jpg?lm=1" alt="Gerson" class="player-img">
+      <div class="player-name">Gerson</div>
+      <div class="player-team">Cruzeiro • Volante</div>
+      <div class="player-value">€ 18 milhões</div>
+      <button class="btn-contratar" onclick="alert('Gerson no meio-campo!')">Contratar</button>
+    </div>
+
+    <div class="player-card">
+      <img src="https://img.a.transfermarkt.technology/portrait/medium/458710-1721310405.jpg?lm=1" alt="Arrascaeta" class="player-img">
+      <div class="player-name">Giorgian De Arrascaeta</div>
+      <div class="player-team">Flamengo • Meia Ofensivo</div>
+      <div class="player-value">€ 15 milhões</div>
+      <button class="btn-contratar" onclick="alert('Arrascaeta contratado!')">Contratar</button>
+    </div>
+
+  </div>
+
+  <script>
+    // Você pode adicionar mais interatividade aqui se quiser (carrinho, saldo fictício, etc.)
+  </script>
+
+</body>
+</html>
